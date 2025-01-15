@@ -1,4 +1,4 @@
-name: Docker CI for Docker Hub Pipeline2
+name: Docker CI for Docker Hub Pipeline1
 
 on:
   push:
