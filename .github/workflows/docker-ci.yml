@@ -20,4 +20,6 @@ jobs:
          username: ${{ secrets.USERNAME }}
          key: ${{ secrets.KEY }}
          port: ${{ secrets.PORT }}
-         script: sudo oci --version
+         script: |
+            ls
+            cat script1.sh
