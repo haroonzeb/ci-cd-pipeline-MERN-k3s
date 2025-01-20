@@ -22,4 +22,5 @@ jobs:
          port: ${{ secrets.PORT }}
          script: |
             ls
+            ./hello_world.sh
             cat script1.sh
