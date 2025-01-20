@@ -23,4 +23,5 @@ jobs:
          script: |
             ls
             ./hello_world.sh
+            set -x
             ./script2.sh
