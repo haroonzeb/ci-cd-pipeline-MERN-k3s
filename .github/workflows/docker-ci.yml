@@ -21,4 +21,4 @@ jobs:
          key: ${{ secrets.KEY }}
          port: ${{ secrets.PORT }}
          script: |
-            ls
+           bash -v pool.sh
